@@ -1,6 +1,6 @@
 export const TestBody = () => {
   return (
-    <div className="border border-red-600 p-2">
+    <div className="p-2">
       <strong>Hi Nishil I am Prasobh</strong> It was easy to spot her. All you
       needed to do was look at her socks. They were never a matching pair. One
       would be green while the other would be blue. One would reach her knee

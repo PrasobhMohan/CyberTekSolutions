@@ -20,11 +20,11 @@ export const MobileHeader = () => {
           <Link to="/" className="flex items-center" style={{ width: "160px" }}>
             <img src={Logo} className="mr-3 aspect-[4/1]" alt="CyberTek Logo" />
           </Link>
-          <button onClick={() => setOpen(!open)}>
+          <button onClick={() => setOpen(!open)} className="p-2">
             <FontAwesomeIcon size="lg" icon={open ? faClose : faBars} />
           </button>
         </div>
-        <div className={open ? "showMenuNav" : "hideMenuNav"}>
+        <div className={open ? "showMenuNav" : "hidden"}>
           <ul className="flex flex-col">
             <li
               className="flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100"
@@ -63,43 +63,43 @@ export const MobileHeader = () => {
                 <div className="w-full group-hover:block rounded-b border-t-0 z-30">
                   <div className="shadow-md">
                     <div
-                      className="p-2 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase"
+                      className="p-2 pl-4 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase"
                       onClick={closeAll}
                     >
                       <Link to="/">Networking</Link>
                     </div>
                     <div
-                      className="p-2 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase"
+                      className="p-2 pl-4 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase"
                       onClick={closeAll}
                     >
                       <Link to="/">Security</Link>
                     </div>
                     <div
-                      className="p-2 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase"
+                      className="p-2 pl-4 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase"
                       onClick={closeAll}
                     >
                       <Link to="/">Wireless</Link>
                     </div>
                     <div
-                      className="p-2 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase"
+                      className="p-2 pl-4 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase"
                       onClick={closeAll}
                     >
                       <Link to="/">5G</Link>
                     </div>
                     <div
-                      className="p-2 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase"
+                      className="p-2 pl-4 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase"
                       onClick={closeAll}
                     >
                       <Link to="/">SD-WAN</Link>
                     </div>
                     <div
-                      className="p-2 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase"
+                      className="p-2 pl-4 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase"
                       onClick={closeAll}
                     >
                       <Link to="/">Cloud Computing</Link>
                     </div>
                     <div
-                      className="p-2 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase"
+                      className="p-2 pl-4 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase"
                       onClick={closeAll}
                     >
                       <Link to="/">IoT</Link>
