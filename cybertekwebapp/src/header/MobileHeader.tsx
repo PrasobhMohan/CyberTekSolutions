@@ -22,7 +22,7 @@ export const MobileHeader = () => {
           </Link>
           <button
             onClick={() => {
-              open ? closeAll() : setOpen(!open);
+              open ? closeAll() : setOpen(true);
             }}
             className="p-2"
           >
