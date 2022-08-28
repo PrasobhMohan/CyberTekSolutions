@@ -55,37 +55,43 @@ export const WebHeader = () => {
                     <div className="absolute w-full hidden group-hover:block rounded-b border-t-0 z-10 top-8">
                       <div className="shadow-xl w-64">
                         <div className="flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase">
-                          <Link to="/" className="p-2 w-full">
+                          <Link
+                            to="/services/networking"
+                            className="p-2 w-full"
+                          >
                             Networking
                           </Link>
                         </div>
                         <div className="flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase">
-                          <Link to="/" className="p-2 w-full">
+                          <Link to="/services/security" className="p-2 w-full">
                             Security
                           </Link>
                         </div>
                         <div className="flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase">
-                          <Link to="/" className="p-2 w-full">
+                          <Link to="/services/wireless" className="p-2 w-full">
                             Wireless
                           </Link>
                         </div>
                         <div className="flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase">
-                          <Link to="/" className="p-2 w-full">
+                          <Link to="/services/5g" className="p-2 w-full">
                             5G
                           </Link>
                         </div>
                         <div className="flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase">
-                          <Link to="/" className="p-2 w-full">
+                          <Link to="/services/sd-wan" className="p-2 w-full">
                             SD-WAN
                           </Link>
                         </div>
                         <div className="flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase">
-                          <Link to="/" className="p-2 w-full">
+                          <Link
+                            to="/services/cloud-computing"
+                            className="p-2 w-full"
+                          >
                             Cloud Computing
                           </Link>
                         </div>
                         <div className="flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase">
-                          <Link to="/" className="p-2 w-full">
+                          <Link to="/services/iot" className="p-2 w-full">
                             IoT
                           </Link>
                         </div>
@@ -95,22 +101,31 @@ export const WebHeader = () => {
                 </div>
               </li>
               <li>
-                <Link to="/" className="block py-2 rounded bg-transparent">
+                <Link
+                  to="/experience"
+                  className="block py-2 rounded bg-transparent"
+                >
                   EXPERIENCE
                 </Link>
               </li>
               <li>
-                <Link to="/" className="block py-2 rounded bg-transparent">
+                <Link to="/blog" className="block py-2 rounded bg-transparent">
                   BLOG
                 </Link>
               </li>
               <li>
-                <Link to="/" className="block py-2 rounded bg-transparent">
+                <Link
+                  to="/contact-us"
+                  className="block py-2 rounded bg-transparent"
+                >
                   CONTACT US
                 </Link>
               </li>
               <li>
-                <Link to="/" className="block py-2 rounded bg-transparent">
+                <Link
+                  to="/partners"
+                  className="block py-2 rounded bg-transparent"
+                >
                   PARTNERS
                 </Link>
               </li>

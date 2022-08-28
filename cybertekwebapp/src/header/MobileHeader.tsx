@@ -68,46 +68,66 @@ export const MobileHeader = () => {
                 <div className="w-full group-hover:block rounded-b border-t-0 z-30">
                   <div className="shadow-md">
                     <div
-                      className="p-2 pl-4 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase"
+                      className="flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase"
                       onClick={closeAll}
                     >
-                      <Link to="/">Networking</Link>
+                      <Link
+                        to="/services/networking"
+                        className="p-2 pl-4 w-full"
+                      >
+                        Networking
+                      </Link>
                     </div>
                     <div
-                      className="p-2 pl-4 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase"
+                      className="flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase"
                       onClick={closeAll}
                     >
-                      <Link to="/">Security</Link>
+                      <Link to="/services/security" className="p-2 pl-4 w-full">
+                        Security
+                      </Link>
                     </div>
                     <div
-                      className="p-2 pl-4 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase"
+                      className="flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase"
                       onClick={closeAll}
                     >
-                      <Link to="/">Wireless</Link>
+                      <Link to="/services/wireless" className="p-2 pl-4 w-full">
+                        Wireless
+                      </Link>
                     </div>
                     <div
-                      className="p-2 pl-4 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase"
+                      className="flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase"
                       onClick={closeAll}
                     >
-                      <Link to="/">5G</Link>
+                      <Link to="/services/5G" className="p-2 pl-4 w-full">
+                        5G
+                      </Link>
                     </div>
                     <div
-                      className="p-2 pl-4 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase"
+                      className="flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase"
                       onClick={closeAll}
                     >
-                      <Link to="/">SD-WAN</Link>
+                      <Link to="/services/sd-wan" className="p-2 pl-4 w-full">
+                        SD-WAN
+                      </Link>
                     </div>
                     <div
-                      className="p-2 pl-4 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase"
+                      className="flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase"
                       onClick={closeAll}
                     >
-                      <Link to="/">Cloud Computing</Link>
+                      <Link
+                        to="/services/cloud-computing"
+                        className="p-2 pl-4 w-full"
+                      >
+                        Cloud Computing
+                      </Link>
                     </div>
                     <div
-                      className="p-2 pl-4 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase"
+                      className="flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase"
                       onClick={closeAll}
                     >
-                      <Link to="/">IoT</Link>
+                      <Link to="/services/iot" className="p-2 pl-4 w-full">
+                        IoT
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -117,7 +137,7 @@ export const MobileHeader = () => {
               className="flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100"
               onClick={closeAll}
             >
-              <Link to="/" className="p-2 w-full uppercase">
+              <Link to="/experience" className="p-2 w-full uppercase">
                 Experience
               </Link>
             </li>
@@ -125,7 +145,7 @@ export const MobileHeader = () => {
               className="flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100"
               onClick={closeAll}
             >
-              <Link to="/" className="p-2 w-full uppercase">
+              <Link to="/blog" className="p-2 w-full uppercase">
                 blog
               </Link>
             </li>
@@ -133,15 +153,15 @@ export const MobileHeader = () => {
               className="flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100"
               onClick={closeAll}
             >
-              <Link to="/" className="p-2 w-full uppercase">
-                contact us
+              <Link to="/contact-us" className="p-2 w-full uppercase">
+                Contact us
               </Link>
             </li>
             <li
               className="flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100"
               onClick={closeAll}
             >
-              <Link to="/" className="p-2 w-full uppercase">
+              <Link to="/partners" className="p-2 w-full uppercase">
                 partners
               </Link>
             </li>
