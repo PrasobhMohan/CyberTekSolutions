@@ -20,7 +20,12 @@ export const MobileHeader = () => {
           <Link to="/" className="flex items-center" style={{ width: "160px" }}>
             <img src={Logo} className="mr-3 aspect-[4/1]" alt="CyberTek Logo" />
           </Link>
-          <button onClick={() => setOpen(!open)} className="p-2">
+          <button
+            onClick={() => {
+              open ? closeAll() : setOpen(!open);
+            }}
+            className="p-2"
+          >
             <FontAwesomeIcon size="lg" icon={open ? faClose : faBars} />
           </button>
         </div>
