@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.video video {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  font-family: DM Sans;
+}
+
+.main-nav {
+  color: #525253;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-twitter {
+  color: #00aced;
+}
+
+.fa-linkedin {
+  color: #007bb6;
+}
+
+.showMenuNav {
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 57;
+  left: 0;
+  background: white;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+}
