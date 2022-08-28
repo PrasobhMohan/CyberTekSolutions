@@ -10,14 +10,14 @@ import Logo from "../static/media/CyberTEK-Solutions-LLC transparent.png";
 
 export const WebHeader = () => {
   return (
-    <header>
-      <nav className="bg-white py-2">
-        <div className="flex flex-wrap justify-between items-center lg:px-8 md:px-4">
-          <Link to="/" className="flex items-center" style={{ width: "300px" }}>
+    <header className="sticky top-0 z-10">
+      <nav className="bg-white">
+        <div className="flex flex-wrap justify-between items-center lg:px-8 md:px-4 border-b border-b-gray-100 pb-1">
+          <Link to="/" className="flex items-center" style={{ width: "280px" }}>
             <img src={Logo} className="mr-3 aspect-[4/1]" alt="CyberTek Logo" />
           </Link>
           <div className="justify-between flex w-auto">
-            <ul className="flex mt-4 font-medium flex-row space-x-6 main-nav">
+            <ul className="flex mt-8 font-medium flex-row space-x-6 main-nav">
               <li>
                 <Link
                   to="/"
@@ -54,26 +54,40 @@ export const WebHeader = () => {
                     </div>
                     <div className="absolute w-full hidden group-hover:block rounded-b border-t-0 z-10 top-8">
                       <div className="shadow-xl w-64">
-                        <div className="p-2 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100">
-                          <Link to="/">Networking</Link>
+                        <div className="flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase">
+                          <Link to="/" className="p-2 w-full">
+                            Networking
+                          </Link>
                         </div>
-                        <div className="p-2 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100">
-                          <Link to="/">Security</Link>
+                        <div className="flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase">
+                          <Link to="/" className="p-2 w-full">
+                            Security
+                          </Link>
                         </div>
-                        <div className="p-2 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100">
-                          <Link to="/">Wireless</Link>
+                        <div className="flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase">
+                          <Link to="/" className="p-2 w-full">
+                            Wireless
+                          </Link>
                         </div>
-                        <div className="p-2 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100">
-                          <Link to="/">5G</Link>
+                        <div className="flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase">
+                          <Link to="/" className="p-2 w-full">
+                            5G
+                          </Link>
                         </div>
-                        <div className="p-2 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100">
-                          <Link to="/">SD-WAN</Link>
+                        <div className="flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase">
+                          <Link to="/" className="p-2 w-full">
+                            SD-WAN
+                          </Link>
                         </div>
-                        <div className="p-2 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100">
-                          <Link to="/">Cloud Computing</Link>
+                        <div className="flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase">
+                          <Link to="/" className="p-2 w-full">
+                            Cloud Computing
+                          </Link>
                         </div>
-                        <div className="p-2 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100">
-                          <Link to="/">IoT</Link>
+                        <div className="flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100 uppercase">
+                          <Link to="/" className="p-2 w-full">
+                            IoT
+                          </Link>
                         </div>
                       </div>
                     </div>
