@@ -55,10 +55,25 @@ export const WebHeader = () => {
                     <div className="absolute w-full hidden group-hover:block rounded-b border-t-0 z-10 top-8">
                       <div className="shadow-xl w-64">
                         <div className="p-2 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100">
-                          1
+                          <Link to="/">Networking</Link>
                         </div>
                         <div className="p-2 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100">
-                          2
+                          <Link to="/">Security</Link>
+                        </div>
+                        <div className="p-2 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100">
+                          <Link to="/">Wireless</Link>
+                        </div>
+                        <div className="p-2 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100">
+                          <Link to="/">5G</Link>
+                        </div>
+                        <div className="p-2 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100">
+                          <Link to="/">SD-WAN</Link>
+                        </div>
+                        <div className="p-2 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100">
+                          <Link to="/">Cloud Computing</Link>
+                        </div>
+                        <div className="p-2 flex bg-white hover:bg-gray-100 cursor-pointer border-b border-gray-100">
+                          <Link to="/">IoT</Link>
                         </div>
                       </div>
                     </div>
