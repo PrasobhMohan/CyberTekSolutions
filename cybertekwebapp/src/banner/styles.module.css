@@ -1,0 +1,9 @@
+
+.container {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(25px, 1fr));
+    grid-gap: 25px;
+    border-radius: 50%;   
+    will-change: width, height;
+}
