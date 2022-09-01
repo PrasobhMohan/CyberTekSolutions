@@ -1,3 +1,5 @@
+import video2 from "../static/media/video2.mp4";
+
 export const Banner3 = () => {
   return (
     <video
@@ -6,7 +8,7 @@ export const Banner3 = () => {
       loop={true}
       muted={true}
     >
-      <source src={"./videos/video2.mp4"} />
+      <source src={video2} />
     </video>
   );
 };
