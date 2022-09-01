@@ -13,6 +13,7 @@ import { FiveG } from "pages/FiveG";
 import { CloudComputing } from "pages/CloudComputing";
 import { SDWan } from "pages/SDWan";
 import { IoT } from "pages/IoT";
+import { Footer } from "footer";
 
 export const App = () => {
   return (
@@ -39,7 +40,7 @@ export const App = () => {
             </Route>
           </Routes>
         </main>
-        <footer className="p-4 text-center">Footer</footer>
+        <Footer />
       </BrowserRouter>
     </ScreenScopeProvider>
   );
