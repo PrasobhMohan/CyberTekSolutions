@@ -49,11 +49,7 @@ export const Home = () => {
     <>
       {/* <Banner1>{imageAnimation}</Banner1> */}
       <Banner1 src={homeVideo} />
-      <div className="w-full h-full overflow-auto">
-        WHO WE ARE
-        <div className="font-bold text-4xl">CYBERTEK SOLUTIONS</div>
-        <TestBody />
-      </div>
+      <TestBody />
     </>
   );
 };
