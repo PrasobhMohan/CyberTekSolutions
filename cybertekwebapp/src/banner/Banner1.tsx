@@ -1,9 +1,8 @@
-import video1 from "../static/media/video1.mp4";
-
 export interface IBanner1Props {
+  src: string;
   children?: React.ReactNode;
 }
-export const Banner1 = ({ children }: IBanner1Props) => {
+export const Banner1 = ({ children, src }: IBanner1Props) => {
   return (
     <div className="relative">
       <video
@@ -11,7 +10,7 @@ export const Banner1 = ({ children }: IBanner1Props) => {
         autoPlay={true}
         loop={true}
         muted={true}
-        src={video1}
+        src={src}
       />
       {children}
     </div>
