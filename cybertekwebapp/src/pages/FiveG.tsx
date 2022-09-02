@@ -1,3 +1,11 @@
+import { Banner1 } from "banner";
+
+import fiveg from "../static/media/videos/fiveg.mp4";
+
 export const FiveG = () => {
-  return <>Services/5G</>;
+  return (
+    <>
+      <Banner1 src={fiveg} />
+    </>
+  );
 };

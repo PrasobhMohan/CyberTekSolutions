@@ -1,6 +1,6 @@
 import { Banner1 } from "banner";
 import { TestBody } from "TestBody";
-import video1 from "../static/media/video1.mp4";
+import homeVideo from "../static/media/videos/home.mp4";
 
 //const config = { mass: 50, tension: 200, friction: 200 };
 
@@ -48,7 +48,7 @@ export const Home = () => {
   return (
     <>
       {/* <Banner1>{imageAnimation}</Banner1> */}
-      <Banner1 src={video1} />
+      <Banner1 src={homeVideo} />
       <div className="w-full h-full overflow-auto">
         WHO WE ARE
         <div className="font-bold text-4xl">CYBERTEK SOLUTIONS</div>
